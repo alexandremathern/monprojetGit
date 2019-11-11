@@ -12,5 +12,6 @@ pageextension 50100 CustomerListExt extends "Customer List"
     trigger OnclosePage();
     begin
         Message('App published: Close2');
+        Message('App published: Close3');
     end;
 }
