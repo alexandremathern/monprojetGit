@@ -12,5 +12,8 @@ pageextension 50100 CustomerListExt extends "Customer List"
     trigger OnClosePage();
     begin
         Message('App published: Close fait par branche ClosePage');
+
+
+
     end;
 }
